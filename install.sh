@@ -11,9 +11,6 @@ echo << EOF
                 ||     ||
 EOF
 
-
-ls /modpacks -larth
-
 : "${FORGE_VERSION:=${FORGEVERSION:-RECOMMENDED}}"
 : "${FORGE_FORCE_REINSTALL:=false}}"
 
