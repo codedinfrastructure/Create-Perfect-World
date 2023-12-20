@@ -45,6 +45,6 @@ jobs:
           name: # optional, default is artifact
             Create-Perfect-World-Server-Files
           path: 
-            build/Create-Perfect-World-*-Server-Files
+            build/Create-Perfect-World-*-Server-Files.zip
 
           
