@@ -20,7 +20,7 @@ isDebugging && set -x
 
 _FORGE_VERSION="1.20.1-47.2.0"
 
-wget https://maven.minecraftforge.net/net/minecraftforge/forge/${_FORGE_VERSION}/forge-${_FORGE_VERSION}-installer.jar -o forge-installer.jar
+wget https://maven.minecraftforge.net/net/minecraftforge/forge/${_FORGE_VERSION}/forge-${_FORGE_VERSION}-installer.jar -O forge-installer.jar
 
 TEMPDIR=$(mktemp -d)
 trap "rm -rf '$TEMPDIR'" EXIT
