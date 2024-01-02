@@ -2,7 +2,9 @@
 set -x
 VERSION="0.4"
 SERVER_FILE="Create-Perfect-World-${VERSION}-Server-Files.zip"
-EXTRA_MODS="https://mediafilez.forgecdn.net/files/4576/54/CraftControlRCON-forge-1.20-1.0.1.jar"
+EXTRA_MODS="https://mediafilez.forgecdn.net/files/4576/54/CraftControlRCON-forge-1.20-1.0.1.jar
+https://mediafilez.forgecdn.net/files/4632/236/Dynmap-3.6-forge-1.20.jar
+https://mediafilez.forgecdn.net/files/4591/975/Chunky-1.3.92.jar"
 
 
 
